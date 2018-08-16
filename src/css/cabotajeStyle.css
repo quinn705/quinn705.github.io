@@ -1,0 +1,82 @@
+body {
+	background-color: #ff1a1a;
+	scroll-behavior: smooth;
+}
+
+#p5:hover{
+	transform: scale(1.25);
+	transform-origin: left;
+	transition: 1.5s;
+}
+
+#dp {
+	position: relative;
+	left: 15%;
+	transform: rotate(17deg);
+	border-style: solid;
+	border-color: black;
+	border-width: 13px 15px 17px 10px;
+}
+
+#dp:hover {
+	transform: rotate(0deg);
+	transition: 0.5s;
+}
+
+#headline {
+	margin-top: 3%;
+}
+
+.entry {
+	/*box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);*/
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-top: 10%;
+	margin-bottom: 3%;
+	margin-right: 15%;
+	margin-left: 3%;
+	border-style: solid;
+	font-family: 'Hobo Std', Ravie;
+}
+
+.right {
+	background-color: white;
+	margin-left: 15%;
+	margin-right: 3%;
+	border-color: black;
+	border-width: 10px 7px 7px 15px;
+	transform: skewx(20deg);
+	transform: skewy(-2deg);
+}
+
+.left {
+	color: white;
+	background-color: black;
+	border-color: white;
+	border-width: 10px 15px 7px 7px;
+	transform: skewx(-20deg);
+	transform: skewy(2deg);
+}
+
+.left:hover {
+	background-color: #101010;
+	transition: 1.75s;
+	transform: skewx(-20deg);
+	transform: scale(1.2);
+	transform-origin: left;
+	
+}
+.right:hover {
+	background-color: #F5F5F5;
+	transition: 1.75s;
+	transform: skewx(-20deg);
+	transform: scale(1.2);
+	transform-origin: right;
+	
+}
+
+.details {
+	font-size: 100%;
+}
